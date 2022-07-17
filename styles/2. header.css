@@ -57,7 +57,7 @@ header{
     }
 }
 
-@media(min-width: 1440px){
+@media(min-width: 1024px){
     header{
         background-image: url(../images/bg-hero-desktop.svg);
     }
