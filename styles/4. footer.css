@@ -63,7 +63,7 @@ footer p{
 }
 
 
-@media(min-width: 1200px){
+@media(min-width: 1024px){
     footer{
         display: flex;
         flex-direction: row;
