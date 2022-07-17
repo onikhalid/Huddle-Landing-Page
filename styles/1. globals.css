@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all 300ms ease-in-out;
+}
+body{
+    font-family: 'Open Sans';
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: center;
+}
+.container{
+    width: 95vw;
+    max-width: 1650px;
+    margin: 2.5rem auto;
+}
+h2, h4{
+    font-family: 'Poppins';
+    font-weight: 600;
+    margin-bottom: 2rem;
+    color: var(--VeryDarkCyan);
+
+}
+h3{
+    font-family: 'Poppins';
+    font-weight: 600;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+    color: var(--VeryDarkCyan); 
+}
+p{
+    margin-bottom: 2rem;
+    line-height: 1.5rem;
+    color: var(--VeryDarkCyan);
+}
+a{
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 14px;
+}
+img{
+    width: 80vw;
+}
+.btn{
+    display: inline-block;
+    border-radius: 2rem;
+    margin-bottom: 2rem;
+    color: white ;
+    background-color: var(--Pink);
+    padding: 0.7rem 3rem;
+    box-shadow: 0 5px 5px 2.5px rgba(255, 82, 191, 0.5);
+}
+.btn:hover{
+    transform: scale(1.2);
+}
+
+
+
+@media(min-width: 1440px){
+    .container{
+        width: 85vw;
+    }
+    h2,h4{
+        font-size: 2rem;
+    }
+    a{
+    font-size: 16px;
+    }
+    .btn{
+    padding: 1rem 3rem;
+    }
+}
+
+
+.weird {
+    padding: 0.5em;
+    padding-bottom: 0;
+    box-shadow: inset 0 -0.5em #0dbe8a;
+    display: inline;
+    /* font-size: x-large; */
+}

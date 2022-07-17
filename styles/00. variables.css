@@ -1,0 +1,10 @@
+html{
+/* PRIMARY */
+--Pink: hsl(322, 100%, 66%);
+
+/* NEUTRAL */
+--VeryPaleCyan: hsl(193, 100%, 96%);
+--VeryDarkCyan: hsl(192, 100%, 9%);
+--GrayishBlue: hsl(208, 11%, 55%);
+
+}

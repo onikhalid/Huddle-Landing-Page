@@ -1,0 +1,94 @@
+footer{
+    background: var(--VeryDarkCyan);
+    padding-top: 10rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 2rem;
+
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+}
+footer p{
+    color: white;
+    text-align: left;
+    margin-bottom: 0rem;
+}
+.footer__logoGrp{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 2.5rem;
+
+}
+.logoGrp__info{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.address{
+    display: flex;
+    align-items: initial;
+    gap: 1rem;
+    
+}
+.address svg{
+    width: 7.5%;
+}
+
+.permalinks{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+    text-align: left;
+}
+.permalink1, .permalink2{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.footer__link{
+    color: white;
+    font-size: 1rem;
+    font-weight: initial;
+}
+.footer__link:hover{
+    padding: 0.5em 0;
+    padding-bottom: 0;
+    color: hsl(322, 100%, 66%);
+    transform: scale(1.1);
+    
+
+}
+
+
+@media(min-width: 1200px){
+    footer{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        padding-left: 5rem;
+        padding-right: 5rem;
+        padding-bottom: 5rem;
+        gap: 10rem;
+    }
+    .footer__logoGrp{
+        flex: 1;
+    }
+    .address svg{
+        width: 15%;
+    }
+    .permalinks{
+        flex: 2;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 10rem;
+    }
+    .permalink1, .permalink2{
+        flex: 1;
+    }
+
+}
